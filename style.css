@@ -100,3 +100,15 @@ img {
   width: 40vw;
   height: 30vh;
 }
+.number{
+  color: rgb(116, 27, 27);
+  font-size: 1.3em;
+  font-weight: 700;
+}
+.fields p{
+  font-size: 1.3em;
+}
+.fields p strong{
+  font-weight: 700;
+  text-decoration: underline;
+}
