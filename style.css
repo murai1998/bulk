@@ -28,7 +28,7 @@ body {
   margin: 0;
   letter-spacing: 5px;
   color: rgb(116, 27, 27);
-  font-weight: 500;
+  font-weight: 700;
 }
 #intro p {
   font-size: 1.5em;
@@ -59,4 +59,8 @@ body {
   width: fit-content;
 
   padding: 2em;
+}
+img {
+  width: 100px;
+  height: 100px;
 }

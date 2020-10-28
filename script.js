@@ -1,5 +1,7 @@
 let main = document.querySelector("#main");
 main.style.visibility = "hidden";
+let intro = document.querySelector("#intro");
+intro.style.visibility = "visible";
 const render = () => {
   let start = document.querySelector("#start");
 
