@@ -3,11 +3,13 @@ body {
   background-position: 0 0;
   background-size: cover;
   background-repeat: no-repeat;
-
+height: fit-content;
+max-height: fit-content;
   font-family: "Catamaran", sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+padding: 0;
+margin: 0;
   align-items: center;
 }
 #intro {
@@ -16,10 +18,10 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  background: linear-gradient(#ffffffe6, #fff0);
-  margin-top: 9em;
+  background: linear-gradient(#ffffff, #ffffff);
+  margin-top: 17em;
   width: fit-content;
-
+overflow: hidden;
   padding: 2em;
 }
 #intro h1 {
@@ -106,9 +108,21 @@ img {
   font-weight: 700;
 }
 .fields p{
-  font-size: 1.3em;
+  font-size: 1.4em;
+  font-weight: 500;
+ 
 }
 .fields p strong{
   font-weight: 700;
   text-decoration: underline;
+}
+#back{
+  margin-top: 4em;
+}
+
+
+#save_res{
+  
+  font-weight: 700;
+ 
 }
