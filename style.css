@@ -3,7 +3,7 @@ body {
   background-position: 0 0;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
+
   font-family: "Catamaran", sans-serif;
   display: flex;
   flex-direction: column;
