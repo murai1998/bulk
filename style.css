@@ -1,0 +1,50 @@
+body {
+  background-image: url("Images/background1.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-family: "Catamaran", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  background: linear-gradient(#ffffffe6, #fff0);
+  margin-top: 9em;
+  width: fit-content;
+
+  padding: 2em;
+}
+#intro h1 {
+  font-size: 5em;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 5px;
+  color: rgb(116, 27, 27);
+  font-weight: 500;
+}
+#intro p {
+  font-size: 1.5em;
+  max-width: 900px;
+  text-align: center;
+}
+#overview {
+  text-decoration: underline;
+  font-style: italic;
+  font-family: 500;
+}
+.next {
+  background: rgb(116, 27, 27);
+  padding: 0.8em;
+  color: white;
+  font-weight: 500;
+  font-size: 1.5em;
+  border: none;
+}
