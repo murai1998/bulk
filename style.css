@@ -48,3 +48,15 @@ body {
   font-size: 1.5em;
   border: none;
 }
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  background: linear-gradient(#ffffffe6, #fff0);
+  margin-top: 9em;
+  width: fit-content;
+
+  padding: 2em;
+}
