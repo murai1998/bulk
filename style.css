@@ -1,5 +1,5 @@
 body {
-  background-image: url("background1\ copy.jpg");
+  background-image: url("Images/background1.jpg");
   background-position: 0 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -56,11 +56,47 @@ body {
   background-color: #fff;
   background: linear-gradient(#ffffffe6, #fff0);
   margin-top: 9em;
-  width: fit-content;
 
-  padding: 2em;
+
+  padding: 2em 4em;
+}
+
+
+#main h2{
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 5px;
+  color: rgb(116, 27, 27);
+  font-weight: 700;
+  max-width: 1000px;
+  border: 5px solid  rgb(116, 27, 27);
+  padding: 2.3em;
+  font-size: 700;
+  border-radius: 50%;
+  
+}
+#column{
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+.rows{
+  display: flex;
+  flex-direction: column;
+ justify-content: left;
+  text-align: left;
+  margin-left: 3em;
 }
 img {
-  width: 100px;
-  height: 100px;
+  width: 35vw;
+  height: 40vh;
+}
+.wideImage{
+  width: 35vw;
+  height: 30vh;
+}
+#saveRes{
+  width: 40vw;
+  height: 30vh;
 }
